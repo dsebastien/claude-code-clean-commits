@@ -1,6 +1,6 @@
 ---
 name: clean-commits
-description: Organizes all local git changes into clean, logical conventional commits grouped by concern. This skill should be used when the user asks to "create commits", "commit changes", "clean commits", "organize commits", "group commits", "split commits", "commit all changes", "commit everything", or wants to commit all local changes following the project's conventional commit format. Dynamically reads the project's commit scopes and types from config files.
+description: Organizes all local git changes into clean, logical conventional commits grouped by concern. This skill should be used when there are uncommitted local changes that need to be committed following the project's conventional commit format. Dynamically reads commit scopes and types from config files, groups changes by purpose, and creates commits in dependency order using hunk-level staging when needed.
 disable-model-invocation: true
 allowed-tools: Read, Edit, Bash, Glob, Grep
 ---
