@@ -1,0 +1,6 @@
+{
+    "name": "clean-commits",
+    "version": "1.0.0",
+    "description": "Organizes local git changes into clean, logical conventional commits grouped by concern. Dynamically reads project-specific commit scopes and types.",
+    "author": "dsebastien"
+}
